@@ -1,0 +1,10 @@
+.realtors{
+    background-color: $color-primary;
+    grid-column: col-start 7 / full-end;
+    padding: 3rem;
+    opacity: 0.4;
+
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10 1fr);
+}
